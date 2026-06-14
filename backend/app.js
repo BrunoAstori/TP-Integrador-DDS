@@ -11,7 +11,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(cors({
-    origin: 'https://tp-integrador-dds.onrender.com', 
+    origin: 'http://localhost:5173', 
     credentials: true 
 }));
 
